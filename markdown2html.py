@@ -1,4 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+import sys
+import os
 """
 markdown2html.py
 
@@ -7,8 +9,6 @@ Arguments:
     input_markdown_file: The path to the input Markdown (.md) file.
     output_html_file: The path to the output HTML (.html) file.
 """
-import sys
-import os
 if len(sys.argv) < 3:
     print("Usage: ./markdown2html.py README.md README.html", file=sys.stderr)
     sys.exit(1)
