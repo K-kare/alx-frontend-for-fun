@@ -76,19 +76,24 @@
                     <label for="your-first-name">First Name</label>
                     <div class="form-field">
                       <span class="form-field-container">
+                        <input type="text" Name="your-first-name" id="your-first-name" Placeholder="e.g. Mike" Pattern="[A-Za-zÀ-ž\s]{3,}" Max length="35" Autocomplete="on" Access Key="f" Required="true">
                       </span>
                     </div>
                   </div>
                   <div class="form-group col-1-2">
                     <label for="your-last-name">Last Name</label>
                     <div class="form-field">
-                      <span class="form-field-container"></span>
+                      <span class="form-field-container">
+                        <input type="text" Name="your-last-name" id="your-last-name" Placeholder="e.g. Smith" Pattern="[A-Za-zÀ-ž\s]{3,}" Max length="40" Autocomplete="on" Access Key="l" Required="true">                     
+                     </span>
                     </div>
                   </div>
                   <div class="form-group col-2-3">
                     <label for="your-email">Email</label>
                     <div class="form-field">
-                      <span class="form-field-container"></span>
+                      <span class="form-field-container">
+                        <input type="email" Name="your-email" id="your-email" Placeholder="e.g. youremail@gmail.com" Pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" Max length="55" Autocomplete="on" Access Key="e" Required="true">
+                      </span>
                     </div>
                   </div>
                 </fieldset>
@@ -97,13 +102,17 @@
                   <div class="form-group col-2-3">
                     <label for="your-title">Title</label>
                     <div class="form-field">
-                      <span class="form-field-container"></span>
+                      <span class="form-field-container">
+                        <input type="text" Name="your-title" id="your-title" Placeholder="e.g. I loved that article" Pattern="[A-Za-zÀ-ž\s]{4,}" Max length="75" Autocomplete="on" Access Key="t" Required="true">
+                      </span>
                     </div>
                   </div>
                   <div class="form-group col-2-3">
                     <label for="your-comment">Comment</label>
                     <div class="form-field">
-                      <span class="form-field-container"></span>
+                      <span class="form-field-container">
+                        <textarea Name="your-comment" id="your-comment" Placeholder="Write your comment here" Minimum length="10" Access Key="c" Required="true" Columns="30" Rows="6"></textarea>
+                      </span>
                     </div>
                   </div>
                   <div class="form-group">
