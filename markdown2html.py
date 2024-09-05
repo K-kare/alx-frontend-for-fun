@@ -2,8 +2,9 @@
 """
 markdown2html.py
 """
-import sys
-import os
+if __name__ == "__main__":
+    import sys
+    import os
 """
 This script converts a Markdown file to an HTML file.
 """
