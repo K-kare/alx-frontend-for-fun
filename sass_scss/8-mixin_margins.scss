@@ -1,0 +1,11 @@
+/* Write a Sass file */
+@mixin margin-lr($left-right-margin) {
+    margin-left: $left-right-margin;
+    margin-left: $left-right-margin;
+}
+body {
+    @include margin-lr(10px);
+}
+div {
+    @include margin-lr(15px);
+}
