@@ -1,0 +1,10 @@
+/* Write a Sass file */
+@import 'backgrounds';
+@mixin set-background($name) {
+    background-image: url('/images/#{$name}.jpg');
+}
+@each $name in $list-names {
+    .#{$name}-background {
+        @include set-background($name);
+    }
+}
